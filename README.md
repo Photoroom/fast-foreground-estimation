@@ -1,8 +1,7 @@
 # Approximate Fast Foreground Colour Estimation
 Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.  
-<!-- ![Teaser](./images/radius_slide_portrait.gif) -->
 
-<img src="./images/radius_slide_portrait.gif" style="float: right;" width="150" height="200">
+<img src="./images/radius_slide_portrait.gif" style="float: center;" width="450" height="600">
 
 Naively compositing without an estimate of foreground colour leads to bleed-through of the original background.   
 
@@ -12,12 +11,12 @@ In this work, we propose a foreground estimation technique. Our method can be im
 
 ![Teaser](./images/icip_2021_poster_image.png)
 
-## Notebooks
-We provide notebooks to reproduce the results, and figures found in the paper.
+## API Usage
+PhotoRoom includes foreground estimation by default in the [Backround Removal API](https://www.photoroom.com/api/), see [documentation](https://docs.photoroom.com/docs/api).
+
 ### Requirements
 - numpy # For mathematical operations.
 - opencv-python # Efficient blur implementation. 
-- torch >= 1.4  # For GPU computation.
 
 ## Citation
 
