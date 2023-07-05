@@ -1,5 +1,6 @@
 # Approximate Fast Foreground Colour Estimation
-Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.  
+Official repository for the paper [Approximate Fast Foreground Colour Estimation](https://ieeexplore.ieee.org/document/9506164). ICIP 2021.
+Awarded Best Industry paper.
 
 <img src="./images/radius_slide_portrait.gif" style="float: center;" width="450" height="600">
 
